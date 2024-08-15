@@ -3,9 +3,16 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: "Source Sans 3", sans-serif;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);
-    background-color: rgb(231, 226, 213);
-    
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.281);  
+}
+body{
+    background-color: whitesmoke;
+}
+div{
+    background-color: rgb(235, 217, 195);
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
 }
 header{
     text-align: center;
@@ -32,7 +39,7 @@ h2{
 img{
     display: flex;
     width: 85vw;
-    height: 500px;
+    max-height: 500px;
     border-radius: 10px;
     margin: auto;
     margin-bottom: 20px;
@@ -43,8 +50,10 @@ main p{
     font-size: 1.1em;
     display: flex;
     width: 90vw;
+    max-width: 1000px;
     margin: auto;
     padding: 5px;
+
 }
 ul{
     list-style: none;
@@ -54,4 +63,8 @@ li{
     width: 90vw;
     margin: auto;
     padding: 5px;
+    max-width: 1000px;
+}
+strong{
+    font-style: italic;
 }
